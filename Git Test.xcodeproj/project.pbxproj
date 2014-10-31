@@ -14,6 +14,7 @@
 		93AA20831A04526D0040257B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93AA20821A04526D0040257B /* Images.xcassets */; };
 		93AA20861A04526D0040257B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93AA20841A04526D0040257B /* LaunchScreen.xib */; };
 		93AA20921A04526D0040257B /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA20911A04526D0040257B /* Git_TestTests.m */; };
+		93AA209D1A0456390040257B /* THTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA209C1A0456390040257B /* THTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		93AA208B1A04526D0040257B /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93AA20901A04526D0040257B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93AA20911A04526D0040257B /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		93AA209B1A0456390040257B /* THTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTest.h; sourceTree = "<group>"; };
+		93AA209C1A0456390040257B /* THTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		93AA20691A04526C0040257B = {
 			isa = PBXGroup;
 			children = (
+				93AA209B1A0456390040257B /* THTest.h */,
+				93AA209C1A0456390040257B /* THTest.m */,
 				93AA20741A04526C0040257B /* Git Test */,
 				93AA208E1A04526D0040257B /* Git TestTests */,
 				93AA20731A04526C0040257B /* Products */,
@@ -222,6 +227,7 @@
 				93AA207E1A04526C0040257B /* ViewController.m in Sources */,
 				93AA207B1A04526C0040257B /* AppDelegate.m in Sources */,
 				93AA20781A04526C0040257B /* main.m in Sources */,
+				93AA209D1A0456390040257B /* THTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
